@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: linear-gradient(to left, #ffb703, #fbfff0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #2b2839;
+}
+.profile-img {
+  width: 150px;
+  border-radius: 10px;
+}
+.profile-img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 400px;
+  margin: 0;
+  border: 4px solid #fb8500;
+  background: #ffb703;
+  border-radius: 10px;
+}
+.flex-item {
+  text-align: center;
+}
+h3 {
+  font-size: 22px;
+}
